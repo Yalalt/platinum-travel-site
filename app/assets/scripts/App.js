@@ -1,6 +1,8 @@
-import("../styles/styles.css");
+import "../styles/styles.css";
+import MobileMenu from "./modules/MobileMenu";
 
-// alert("Welcome to Work, Mr. G.Yalalt");
+let mobileMenu = new MobileMenu();
+
 if (module.hot) {
   module.hot.accept();
 }
