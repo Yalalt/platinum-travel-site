@@ -21,8 +21,9 @@
     <header class="site-header">
       <div class="wrapper">
         <div class="site-header__logo">
-          <img src="assets/images/icons/platinum_travel.svg" />  
+          <img src="assets/images/icons/platinum_travel.svg" />
         </div>
+
         <div class="site-header__menu-icon">
           <div class="site-header__menu-icon__middle"></div>
         </div>
@@ -30,7 +31,6 @@
           <div class="site-header__btn-container">
             <a href="#" class="btn open-modal">Хамт аялах</a>
           </div>
-      
           <nav class="primary-nav primary-nav--pull-right">
             <ul>
               <li>
@@ -101,7 +101,8 @@
     >
       <div class="wrapper">
         <h2
-          class="headline headline--centered headline--light headline--b-margin-small">
+          class="headline headline--centered headline--light headline--b-margin-small"
+        >
           Бид анх <strong>өөрсдийнхөө аяллаар</strong> эхлэж байлаа.
         </h2>
         <h3
@@ -113,19 +114,23 @@
         <div class="wrapper wrapper--medium wrapper--b-margin">
           <img
             class="lazyload"
-            sizes="(min-width: 970px) 976px, 100vw" srcset="
+            sizes="(min-width: 970px) 976px, 100vw"
+            data-srcset="
               assets/images/first-trip-low-res.jpg  565w,
               assets/images/first-trip.jpg          976w,
-              assets/images/first-trip-hi-dpi.jpg  1952w"
+              assets/images/first-trip-hi-dpi.jpg  1952w
+            "
             alt="Couple walking down a street."
           />
         </div>
         <div class="row row--gutters">
-          <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+          <div
+            class="row__medium-4 row__medium-4--larger row__b-margin-until-medium"
+          >
             <picture>
               <source
                 sizes="404px"
-                srcset="
+                data-srcset="
                   assets/images/our-start.jpg        404w,
                   assets/images/our-start-hi-dpi.jpg 808w
                 "
@@ -133,7 +138,7 @@
               />
               <source
                 sizes="316px"
-                srcset="
+                data-srcset="
                   assets/images/our-start-portrait.jpg        382w,
                   assets/images/our-start-portrait-hi-dpi.jpg 764w
                 "
@@ -141,7 +146,7 @@
               />
               <img
                 class="lazyload"
-                srcset="
+                data-srcset="
                   assets/images/our-start-landscape.jpg         800w,
                   assets/images/our-start-landscape-hi-dpi.jpg 1600w
                 "
@@ -275,7 +280,6 @@
         <div
           class="row row--gutters row--gutters-small row--equal-height-at-large generic-content-container row--t-padding "
         >
-        
           <div class="row__large-4">
             <div class="testimonial">
               <div class="testimonial__photo">
@@ -366,6 +370,5 @@
       </div>
     </footer>
     </div>
-    <script src="bundled.js"></script>
   </body>
 </html>
