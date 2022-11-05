@@ -2,5 +2,3 @@ node_modules/
 Thumbs.db
 *.log
 .cache
-package-lock.json
-package.json
