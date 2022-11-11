@@ -3,8 +3,6 @@ body {
   color: #333;
 }
 
-// Image parent div dee 100 orgon,
-//  proportion ondoroo awna
 img {
   max-width: 100%;
   height: auto;
