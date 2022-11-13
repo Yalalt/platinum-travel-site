@@ -1,5 +1,6 @@
 .row {
-  @mixin clearfix;
+  @mixin clearfix {
+  }
 
   &__b-margin-until-medium {
     margin-bottom: 1rem;
